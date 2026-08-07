@@ -4,10 +4,14 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0;
-    background-color: #f0eee9
+    background-color: #f3f1eb
 }
 main {
     flex: 1;
+    margin: 20px 30px;
+    padding: 15px 45px;
+    background-color: #6B7A5C;
+    border-radius: 20px
 }
 .site-nav{
     
@@ -17,12 +21,12 @@ main {
     margin: 20px 10px;
     width: 70px;
     height: 90vh;
-    position: fixed;
+    position: sticky;
     top: 20;
     left: 40;
     bottom: 50;
     gap: 60px;
-    background-color: #ede8d9;
+    background-color: #f3efe4;
     transition: background-color 2s ease;
     border-radius: 15px ;
     border: 3px dashed #4c3500;
@@ -30,7 +34,7 @@ main {
 }
 
 .site-nav:hover{
-    background-color: #d7c9be;
+    background-color: #e3dbc6;
 }
 
 .nav-icon img{
