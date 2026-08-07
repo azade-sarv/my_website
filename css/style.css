@@ -22,3 +22,7 @@ body{
     border-right: 3px dashed #4c3500;
     box-shadow: 2px 0 10px rgba(96, 66, 7, 0.421);
 }
+
+.site-nav:hover{
+    background-color: #eae3d3;
+}
