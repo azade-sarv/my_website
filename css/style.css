@@ -1,11 +1,12 @@
 ﻿/* base css */
 
-body{
+body {
     display: flex;
     flex-direction: row;
     margin: 0;
     background-color: #f3f1eb
 }
+
 main {
     flex: 1;
     margin: 20px 30px;
@@ -13,6 +14,14 @@ main {
     background-color: #6B7A5C;
     border-radius: 20px
 }
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #F3EFE4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .site-nav{
     
     display: flex;
