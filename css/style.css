@@ -12,11 +12,13 @@ main {
     margin: 20px 30px;
     padding: 15px 45px;
     background-color: #6B7A5C;
+    border: 3px solid #4C3500;
     border-radius: 20px
 }
 
 h1 {
     font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
     color: #F3EFE4;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -31,9 +33,6 @@ h1 {
     width: 70px;
     height: 90vh;
     position: sticky;
-    top: 20;
-    left: 40;
-    bottom: 50;
     gap: 60px;
     background-color: #f3efe4;
     transition: background-color 2s ease;
@@ -47,8 +46,8 @@ h1 {
 }
 
 .nav-icon img{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     padding: 10px 0;
     object-fit: contain;
 }
