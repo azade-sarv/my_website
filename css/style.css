@@ -22,6 +22,7 @@ h1 {
     color: #F3EFE4;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 70px;
 }
 
 .site-nav{
@@ -51,4 +52,53 @@ h1 {
     height: 60px;
     padding: 10px 0;
     object-fit: contain;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-card {
+    width: 350px ;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin: 40px 50px 20px 10px;
+    padding: 10px;
+    background-color: #F1F0E8;
+    border: 5px solid #4C3500;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-card .contact-icon img{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+}
+
+.content-card .contact-info{
+    margin: 10px 0px 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-card .contact-info p{
+    font-family: 'Andale Mono', monospace;
+    margin-bottom: 5px 0;
+    font-size: 1.2rem;
+    color: #4c2f00;
+}
+
+.content-card .contact-info h3{
+    font-family: 'Arial', sans-serif;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #2f1d00;
 }
