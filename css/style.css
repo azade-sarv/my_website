@@ -22,6 +22,8 @@ h1 {
     color: #F3EFE4;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .site-nav{
@@ -51,4 +53,63 @@ h1 {
     height: 60px;
     padding: 10px 0;
     object-fit: contain;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-card {
+    width: 400px;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 50px 20px 10px;
+    padding: 15px 20px;
+    background-color: #E9E1CB;
+    border: 3px solid #4C3500;
+    border-left: 7px solid #8B5E00;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
+}
+
+.content-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    border-left-color: #C4941A;
+}
+
+.content-card .contact-icon img{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.content-card .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.content-card .contact-info h3{
+    font-family: 'League Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0;
+    font-size: 1.15rem;
+    color: #8B5E00;
+}
+
+.content-card .contact-info p{
+    font-family: 'Andale Mono', monospace;
+    margin: 0;
+    font-size: 1.05rem;
+    color: #3B2410;
 }
