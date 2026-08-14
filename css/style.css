@@ -9,7 +9,7 @@ body {
 
 main {
     flex: 1;
-    margin: 20px 50px 20px 30px;
+    margin: 20px 70px;
     padding: 15px 45px;
     background-color: #6B7A5C;
     border: 3px solid #4C3500;
@@ -24,6 +24,24 @@ h1 {
     letter-spacing: 2px;
     margin-bottom: 70px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2.5rem;
+    margin: 25px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #E9E1CB;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.7rem;
+    margin: 25px 0;
+    color: #F3EFE4;
+    max-width: 600px;
+    line-height: 1.6;
 }
 
 .site-nav{
@@ -116,7 +134,27 @@ h1 {
 
 .profile-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+}
+
+.profile-photo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.profile-section .profile-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4.5px solid #4C3500;
+}
+
+#sarv {
+height: 170px;
 }
