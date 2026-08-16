@@ -177,3 +177,55 @@ height: 170px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.25s ease, border-color 0.25s ease;
 }
+
+.project-card:hover {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+    border-color: #C4941A;
+}
+
+.card-title {
+    background-color: #4C3500;
+    padding: 14px 18px;
+    text-align: center;
+}
+
+.card-title h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #E9E1CB;
+    margin: 0;
+}
+
+.card-body {
+    padding: 18px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #8B5E00;
+    color: #F3EFE4;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+}
+
+.card-button:hover {
+    background-color: #C4941A;
+}
+
+.card-button img {
+    width: 22px;
+    height: 22px;
+}
