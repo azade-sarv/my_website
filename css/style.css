@@ -229,3 +229,13 @@ height: 170px;
     width: 22px;
     height: 22px;
 }
+
+.more-projects a {
+    color: #C4941A;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.more-projects a:hover {
+    text-decoration: underline;
+}
