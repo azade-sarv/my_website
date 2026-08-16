@@ -106,7 +106,7 @@ p {
     border-left-color: #C4941A;
 }
 
-.content-card .contact-icon img{
+.contact-icon{
     display: flex;
     width: 60px;
     height: 60px;
@@ -242,3 +242,4 @@ height: 170px;
 .more-projects a:hover {
     text-decoration: underline;
 }
+
