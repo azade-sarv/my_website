@@ -243,3 +243,60 @@ height: 170px;
     text-decoration: underline;
 }
 
+
+.skills-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    background-color: #e9e1cb;
+    border: 2px solid #4c3500;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-2px);
+    background-color: #f3efe4;
+    border-color: #c4941a;
+}
+
+.logo-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.skill-card h3 {
+    margin: 0;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 1rem;
+    color: #3b2410;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills-container > p {
+    width: 100%;
+    margin: 8px 0 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #e9e1cb;
+}
