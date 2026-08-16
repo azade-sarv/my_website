@@ -158,3 +158,22 @@ p {
 #sarv {
 height: 170px;
 }
+
+.projects-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E1CB;
+    border: 3px double #4C3500;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
