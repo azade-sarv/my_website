@@ -297,3 +297,8 @@ height: 170px;
     font-style: italic;
     color: #e9e1cb;
 }
+
+.nav-icon.active {
+    background-color: #e3dbc6;
+    border-radius: 10px;
+}
